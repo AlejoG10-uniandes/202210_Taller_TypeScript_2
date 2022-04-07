@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    /* Modules */
+    "module": "es6",                                     /* Specify what module code is generated. */
+    "rootDir": "./",                                     /* Specify the root folder within your source files. */
+    // "outDir": "./scripts",                            /* Specify an output folder for all emitted files. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables `allowSyntheticDefaultImports` for type compatibility. */
+    // "preserveSymlinks": true,                         /* Disable resolving symlinks to their realpath. This correlates to the same flag in node. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    /* Type Checking */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "alwaysStrict": true,                                /* Ensure 'use strict' is always emitted. */
+    /* Completeness */
+    "skipLibCheck": true                                 /* Skip type checking all .d.ts files. */
+  }
+}

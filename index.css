@@ -1,0 +1,46 @@
+.navbar {
+    margin-bottom: 50px;
+}
+
+.container-fluid {
+    align-items: center;
+}
+
+.logo {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    margin-right: 15px;
+}
+
+.row {
+    justify-content: flex-start;
+}
+
+@media (max-width: 1140px) {
+    .row {
+        justify-content: center;
+    }
+
+    .table-container {
+        margin: 0;
+    }
+}
+
+.table-container {
+    margin: 0;
+    margin-right: 25px;
+    max-width: 500px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
